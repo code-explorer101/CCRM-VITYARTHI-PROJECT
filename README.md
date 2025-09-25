@@ -729,14 +729,6 @@ This project is created for educational purposes. Students are encouraged to:
 - **Customize and extend**: Add personal touches and new features
 - **Follow academic guidelines**: Respect your institution's academic integrity policies
 
-### Customization Requirements
-Before submission, please:
-- [ ] Replace "Ak" with your actual name throughout the codebase
-- [ ] Modify constants and configuration values
-- [ ] Add personal comments and implementation notes
-- [ ] Customize features based on your specific requirements
-- [ ] Test thoroughly and fix any issues
-
 ### Disclaimer
 This code is provided as-is for educational purposes. While functional and well-structured, it may require additional features or modifications based on specific academic requirements.
 
