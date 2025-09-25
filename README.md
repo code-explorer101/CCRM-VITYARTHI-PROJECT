@@ -185,24 +185,7 @@ javac -d bin -sourcepath src src/edu/ccrm/*/*.java src/edu/ccrm/*/*/*.java
 java -cp bin edu.ccrm.cli.AppCLI
 ```
 
-### Method 2: Using Batch/Shell Scripts
-
-#### Windows:
-```cmd
-# Make script executable and run
-compile.bat
-```
-
-#### Linux/macOS:
-```bash
-# Make script executable
-chmod +x compile.sh
-
-# Run compilation script
-./compile.sh
-```
-
-### Method 3: Using VS Code
+### Method 2: Using VS Code
 
 1. **Install Extensions**:
    - "Extension Pack for Java" by Microsoft
@@ -217,7 +200,7 @@ chmod +x compile.sh
    - Select `AppCLI.java` as main class
    - Application will start in integrated terminal
 
-### Method 4: Using IntelliJ IDEA
+### Method 3: Using IntelliJ IDEA
 
 1. **Import Project**:
    - File → Open → Select CCRM directory
@@ -287,7 +270,7 @@ Choose:
    - Course Title
    - Credit Hours
    - Instructor ID
-   - Semester (SPRING/FALL/SUMMER)
+   - Semester (FALL/SUMMER,etc.)
    - Department
 
 ### Enrollment Operations
@@ -303,12 +286,12 @@ Choose:
 The system automatically validates:
 - ✅ Student and course exist
 - ✅ No duplicate enrollments
-- ✅ Credit limit not exceeded (18 credits max per semester)
+- ✅ Credit limit not exceeded (27 credits max per semester)
 
 #### Updating Grades
 1. Select option `3` (Enrollment)
 2. Choose `3` (Update Grade)
-3. Enter student reg number, course code, and grade (A/B/C/D/F)
+3. Enter student reg number, course code, and grade (S/A/B/C/D/F)
 
 ### Generating Reports
 
@@ -344,8 +327,8 @@ The system automatically validates:
 - **Exception Hierarchy**: Extends standard Java exceptions
 
 ### Enums
-- **Grade**: A, B, C, D, F with associated grade points
-- **Semester**: SPRING, FALL, SUMMER with display names
+- **Grade**: S, A, B, C, D, F with associated grade points
+- **Semester**: FALL, SUMMER,etc. with display names
 - **Status**: ACTIVE, INACTIVE, GRADUATED, SUSPENDED
 
 ### File I/O Operations
