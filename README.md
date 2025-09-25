@@ -223,10 +223,10 @@ java -cp bin edu.ccrm.cli.AppCLI
 ### Main Menu Navigation
 When you start the application, you'll see:
 ```
-🎓 Welcome to Ak's Campus Course & Records Manager!
+🎓 Welcome to VITYARTHI Campus Course & Records Manager!
 ==================================================
 
---- Ak's Student Manager ---
+--- VIT Student Manager ---
 1. Students
 2. Courses  
 3. Enrollment
